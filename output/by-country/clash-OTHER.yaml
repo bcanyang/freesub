@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 95.181.162.170
-  port: 444
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.21.62.234
+  port: 443
   udp: true
   type: vless
-  uuid: 7094cade-110a-4be0-b657-15d606dcea6d
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   tls: true
-  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  servername: 5-M19.sudaN-parK.ccwU.cC
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /CjBjB9sn5pCvaSwScc
     headers:
-      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+      Host: 5-M19.sUdaN-PArK.ccWu.CC
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES

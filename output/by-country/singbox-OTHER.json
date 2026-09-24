@@ -5,21 +5,24 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "185.71.219.128",
-      "server_port": 2052,
-      "uuid": "f4ade6db-3c64-4939-9f32-788b87a9392f",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.62.234",
+      "server_port": 443,
+      "uuid": "a90c264d-3853-4eef-9a3d-628b2d02d15e",
       "tls": {
         "enabled": true,
-        "server_name": "185.71.219.128",
+        "server_name": "5-M19.sudaN-parK.ccwU.cC",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/CjBjB9sn5pCvaSwScc",
+        "headers": {
+          "Host": "5-M19.sUdaN-PArK.ccWu.CC"
         }
       }
     },
@@ -28,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
