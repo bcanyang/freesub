@@ -5,24 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "104.21.96.1",
-      "server_port": 443,
-      "uuid": "0836463b-214f-4af6-aa85-85a56a62388e",
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe",
+      "server": "45.132.177.96",
+      "server_port": 9889,
+      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
       "tls": {
         "enabled": true,
-        "server_name": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev",
-        "insecure": false,
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "d2127a49-flat-wood-c4b5.milia-akbarpoor.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "grpc-tunnel"
       }
     },
     {
@@ -30,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
