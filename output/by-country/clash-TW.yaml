@@ -13,7 +13,7 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   port: 443
   udp: true
   type: hysteria2
@@ -21,15 +21,17 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
-  server: hinet1.2yly.com
-  port: 24215
+  server: 45.207.158.76
+  port: 9443
   udp: true
   type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
   client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
   server: 60.248.219.78
@@ -51,7 +53,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 103.115.109.49
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
